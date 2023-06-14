@@ -31,12 +31,19 @@ export default async function Home({
 
         <div className="home__filters">
           <SearchBar />
-
           <div className="home__filter-container">
             <CustomFilter title="fuel" options={fuels} />
             <CustomFilter title="year" options={yearsOfProduction} />
           </div>
         </div>
+
+        <p className="mt-10 text-sm text-red-300 hidden md:block">
+          Couldn't show different and dynamic car photos due to paid API.
+        </p>
+        <p className="text-red-300 text-sm hidden md:block">
+          Moving to the top of the page after a search is NextJ's bug's. This is
+          happening for server side rendering.
+        </p>
 
         {!isDataEmpty ? (
           <section>

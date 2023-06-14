@@ -68,7 +68,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                   <div className="flex gap-3">
                     <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                       <Image
-                        src="/hero.png"
+                        src="/car.png"
                         alt="car model"
                         fill
                         priority
@@ -77,7 +77,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                     </div>
                     <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                       <Image
-                        src="/hero.png"
+                        src="/car.png"
                         alt="car model"
                         fill
                         priority
@@ -86,7 +86,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => (
                     </div>
                     <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                       <Image
-                        src="/hero.png"
+                        src="/car.png"
                         alt="car model"
                         fill
                         priority
